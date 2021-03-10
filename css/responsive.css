@@ -1,0 +1,695 @@
+@media (min-width:1400px) {}
+
+@media (min-width:1200px) and (max-width:1399.98px) {
+    .midb_txt p {
+        padding-right: 0px;
+    }
+    .midc_row a {
+        width: 22.36%;
+    }
+    .class_text ul li {
+        width: 19.65%;
+    }
+    .banner_text p{
+        padding: 0;
+    }
+    .banner_text h2::after {
+        left: -10px;
+    }
+    .banner_text h1::after {
+        left: -10px;
+    }
+    .banner_text p::after {
+        width: 83px;
+        left: -10px;
+    }
+    .banner_text h2::before {
+        right: -7px;
+    }
+    .banner_text h1::before {
+        right: -7px;
+    }
+    .banner_text p::before {
+        width: 55px;
+        right: -7px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199.98px) {
+    
+    .class_text ul li {
+        width: 19.58%;
+    }
+    .midc_row a {
+        width: 21.83%;
+    }
+    .midb_txt p{
+        padding-right: 0;
+    }
+    .banner_text h2::after {
+        left: -40px;
+    }
+    .banner_text h1::after {
+        left: -40px;
+    }
+    .banner_text p::after {
+        width: 65px;
+        left: -40px;
+    }
+    .banner_text h2::before {
+        right: -42px;
+    }
+    .banner_text h1::before {
+        right: -42px;
+    }
+    .banner_text p::before {
+        width: 38px;
+        right: -42px;
+    }
+    .banner_text p{
+        padding: 0;
+    }
+}
+
+@media (min-width:768px) and (max-width:991.98px) {
+    .banner_text p::before {
+        width: 74px;
+        top: 83px;
+        right: 42px;
+    }
+    .banner_text h1::before {
+        width: 3px;
+        top: -27px;
+        right: 40px;
+    }
+    .banner_text p::after {
+        width: 101px;
+        top: 84px;
+        left: 41px;
+    }
+    .banner_text h1::after {
+        width: 3px;
+        top: -24px;
+        left: 41px;
+    }
+    .banner_text h2::after {
+        width: 180px;
+        top: 15px;
+        left: 41px;
+        height: 3px;
+    }
+    .banner_text h2::before {
+        width: 133px;
+        top: 15px;
+        right: 43px;
+    }
+    .mid_b{
+        margin-bottom: 20px;
+    }
+    #class_part {
+        padding: 45px 0;
+    }
+
+    .class_menu li a {
+        line-height: 40px;
+    }
+    .class_text ul li p {
+        font-size: 12px;
+    }
+
+    .class_text ul li {
+        width: 19.16%;
+        padding: 30px 0;
+    }
+    .class_text ul li i{
+        font-size: 40px;
+    }
+
+    .class_text ul li:nth-child(5) {
+        margin-right: 5px;
+    }
+    .about_body p {
+        text-align: center;
+        padding: 0;
+    }
+    .team_row .slick-slide {
+        margin-right: 0;
+    }
+
+    .team_row .slick-slide {
+        padding: 50px 12px;
+    }
+    #team_part {
+        padding: 20px 0;
+    }
+    
+.team_col:hover {
+    padding-top: 32px;
+}
+.test_text p {
+    padding-right: 0;
+}
+
+#test_part {
+    padding-bottom: 40px;
+}
+.mem_col {
+    margin-bottom: 18px;
+}
+
+.mem_head h3 {
+    line-height: 40px;
+}
+
+.mem_btn a {
+    line-height: 30px;
+}
+
+#member_part {
+    padding-bottom: 45px;
+}
+
+.mem_img h2 {
+    line-height: 110px;
+    font-size: 40px;
+}
+
+.mem_text {
+    padding: 12px 0;
+}
+
+.mem_text h6 {
+    margin-bottom: 18px;
+}
+
+#member_part {
+    padding-bottom: 40px;
+}
+.main_menu ul li a{
+    font-size: 13px;
+}
+
+}
+
+@media (min-width:576px) and (max-width:767.98px) {
+     /* Menu Part Start */
+     .main_menu {
+        top: 0;
+        background: #e23e32;
+    }
+
+    .main_menu .navbar-brand {
+        width: 160px;
+        height: 50px;
+        line-height: 43px;
+    }
+
+    .main_menu .navbar-toggler {
+        color: white;
+        box-shadow: none;
+    }
+
+    #navbarSupportedContent {
+        background: #e23e32;
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    .main_menu ul li a::after {
+        display: none;
+    }
+
+    .main_menu ul li a {
+        line-height: 35px;
+    }
+
+    /* Menu Part End */
+
+
+    /* Banner Part Start */
+    .banner_item {
+        padding: 150px 0 100px;
+    }
+
+    .banner_text h2::after,
+    .banner_text h2::before,
+    .banner_text h1::after,
+    .banner_text h1::before,
+    .banner_text p::after,
+    .banner_text p::before {
+        display: none;
+    }
+
+    .banner_text h2 {
+        font-size: 30px;
+    }
+
+    .banner_text h1 {
+        font-size: 50px;
+    }
+
+    .banner_text a {
+        background: #e23e32;
+        border: 1px solid #e23e32;
+    }
+
+    /* Banner Part End */
+
+    /* About Part Start */
+    #about_part {
+        padding: 50px 0;
+    }
+
+    .about_body p {
+        text-align: justify;
+        padding: 0;
+    }
+
+    /* About Part End */
+
+    /* Gallery Part Start */
+    .res_mar {
+        margin-bottom: 24px;
+    }
+
+    #gallery_part {
+        padding-bottom: 40px;
+    }
+
+    /* Gallery Part End */
+
+    /* Team Part Start */
+    .team_row .slick-slide {
+        margin-right: 0;
+    }
+
+    .team_row .slick-slide {
+        padding: 30px 12px;
+    }
+
+    .team_col .team_name {
+        border-right: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+    }
+
+    .team_col .team_text {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+    .team_col .team_overlay {
+        transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        -o-transform: scale(0.9);
+    }
+
+    #team_part {
+        padding: 20px 0;
+    }
+
+    /* Team Part End */
+
+    /* Test Part Start */
+    .test_text p {
+        padding-right: 0;
+    }
+
+    #test_part {
+        padding-bottom: 40px;
+    }
+
+    /* Test Part End */
+
+    /* Member Part Start */
+    .mem_col {
+        margin-bottom: 18px;
+    }
+
+    .mem_head h3 {
+        line-height: 40px;
+    }
+
+    .mem_btn a {
+        line-height: 30px;
+    }
+
+    #member_part {
+        padding-bottom: 45px;
+    }
+
+    .mem_img h2 {
+        line-height: 110px;
+        font-size: 40px;
+    }
+
+    .mem_text {
+        padding: 12px 0;
+    }
+
+    .mem_text h6 {
+        margin-bottom: 18px;
+    }
+
+    #member_part {
+        padding-bottom: 40px;
+    }
+
+    /* Member Part End */
+
+    /* Counter Part Start */
+    .count_num h2 {
+        font-size: 35px;
+    }
+
+    .count_txt h4 {
+        font-size: 13px;
+    }
+
+
+    /* Counter Part End */
+
+    /* Class Part Start */
+    #class_part {
+        padding: 45px 0;
+    }
+
+    .class_menu li a {
+        line-height: 40px;
+    }
+
+    .class_menu li {
+        width: 33.33%;
+        height: 40px;
+        border-bottom: 3px solid #e23e32;
+    }
+
+    .class_text ul li p {
+        font-size: 13px;
+    }
+
+    .class_text ul li {
+        width: 49.16%;
+        padding: 35px 0;
+    }
+    .class_text ul li i{
+        font-size: 50px;
+    }
+    .class_text ul li:nth-child(2),
+    .class_text ul li:nth-child(4),
+    .class_text ul li:nth-child(6),
+    .class_text ul li:nth-child(8),
+    .class_text ul li:nth-child(10) {
+        margin-right: 0;
+    }
+
+    .class_text ul li:nth-child(5) {
+        margin-right: 5px;
+    }
+
+    /* Class Part End */
+
+    /* Islide Part Start */
+    #islide_part {
+        padding-bottom: 45px;
+    }
+
+    /* Islide Part End */
+
+    /* Footer Part Start */
+    .mid_a{
+        margin-bottom: 24px;
+    }
+    .mid_b{
+        margin-bottom: 24px;
+    }
+    .midb_txt p{
+        padding-right: 0;
+    }
+    .midc_row a {
+        width: 22.62%;
+    }
+    .mid_c{
+        margin-bottom: 24px;
+    }
+    /* Footer Part End */
+}
+
+@media (max-width:575.98px) {
+
+    /* Menu Part Start */
+    .main_menu {
+        top: 0;
+        background: #e23e32;
+    }
+
+    .main_menu .navbar-brand {
+        width: 160px;
+        height: 50px;
+        line-height: 43px;
+    }
+
+    .main_menu .navbar-toggler {
+        color: white;
+        box-shadow: none;
+    }
+
+    #navbarSupportedContent {
+        background: #e23e32;
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    .main_menu ul li a::after {
+        display: none;
+    }
+
+    .main_menu ul li a {
+        line-height: 35px;
+    }
+
+    /* Menu Part End */
+
+
+    /* Banner Part Start */
+    .banner_item {
+        padding: 130px 0 90px;
+    }
+
+    .banner_text h2::after,
+    .banner_text h2::before,
+    .banner_text h1::after,
+    .banner_text h1::before,
+    .banner_text p::after,
+    .banner_text p::before {
+        display: none;
+    }
+
+    .banner_text h2 {
+        font-size: 25px;
+    }
+
+    .banner_text h1 {
+        font-size: 45px;
+    }
+
+    .banner_text a {
+        background: #e23e32;
+        border: 1px solid #e23e32;
+    }
+
+    /* Banner Part End */
+
+    /* About Part Start */
+    #about_part {
+        padding: 50px 0;
+    }
+
+    .about_body p {
+        text-align: justify;
+        padding: 0;
+    }
+
+    /* About Part End */
+
+    /* Gallery Part Start */
+    .res_mar {
+        margin-bottom: 24px;
+    }
+
+    #gallery_part {
+        padding-bottom: 40px;
+    }
+
+    /* Gallery Part End */
+
+    /* Team Part Start */
+    .team_row .slick-slide {
+        margin-right: 0;
+    }
+
+    .team_row .slick-slide {
+        padding: 30px 12px;
+    }
+
+    .team_col .team_name {
+        border-right: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+    }
+
+    .team_col .team_text {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+    .team_col .team_overlay {
+        transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        -o-transform: scale(0.9);
+    }
+
+    #team_part {
+        padding: 20px 0;
+    }
+
+    /* Team Part End */
+
+    /* Test Part Start */
+    .test_text p {
+        padding-right: 0;
+    }
+
+    #test_part {
+        padding-bottom: 40px;
+    }
+
+    /* Test Part End */
+
+    /* Member Part Start */
+    .mem_col {
+        margin-bottom: 18px;
+    }
+
+    .mem_head h3 {
+        line-height: 40px;
+    }
+
+    .mem_btn a {
+        line-height: 30px;
+    }
+
+    #member_part {
+        padding-bottom: 45px;
+    }
+
+    .mem_img h2 {
+        line-height: 110px;
+        font-size: 40px;
+    }
+
+    .mem_text {
+        padding: 12px 0;
+    }
+
+    .mem_text h6 {
+        margin-bottom: 18px;
+    }
+
+    #member_part {
+        padding-bottom: 40px;
+    }
+
+    /* Member Part End */
+
+    /* Counter Part Start */
+    .count_num h2 {
+        font-size: 20px;
+    }
+
+    .count_txt h4 {
+        font-size: 12px;
+    }
+
+    /* Counter Part End */
+
+    /* Class Part Start */
+    #class_part {
+        padding: 45px 0;
+    }
+
+    .class_menu li a {
+        line-height: 40px;
+    }
+
+    .class_menu li {
+        width: 33.33%;
+        height: 40px;
+        border-bottom: 3px solid #e23e32;
+    }
+
+    .class_text ul li p {
+        font-size: 13px;
+    }
+
+    .class_text ul li {
+        width: 49.16%;
+        padding: 20px 0;
+    }
+    .class_text ul li i{
+        font-size: 40px;
+    }
+    .class_text ul li:nth-child(2),
+    .class_text ul li:nth-child(4),
+    .class_text ul li:nth-child(6),
+    .class_text ul li:nth-child(8),
+    .class_text ul li:nth-child(10) {
+        margin-right: 0;
+    }
+
+    .class_text ul li:nth-child(5) {
+        margin-right: 5px;
+    }
+
+    /* Class Part End */
+
+    /* Islide Part Start */
+    #islide_part {
+        padding-bottom: 45px;
+    }
+
+    /* Islide Part End */
+
+    /* Footer Part Start */
+    .mid_a{
+        margin-bottom: 24px;
+    }
+    .mid_b{
+        margin-bottom: 24px;
+    }
+    .midb_txt p{
+        padding-right: 0;
+    }
+    .midc_row a {
+        width: 22.62%;
+    }
+    .mid_c{
+        margin-bottom: 24px;
+    }
+    /* Footer Part End */
+
+    /* Menu Part Start */
+    /* Menu Part End */
+
+
+}
